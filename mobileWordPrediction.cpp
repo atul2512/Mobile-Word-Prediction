@@ -24,11 +24,12 @@ using namespace std;
 
 void ListCompletions(string digits, Lexicon & lex);
 void getCompleteWords(string prefix,Lexicon &lex);
-
 Stack<string> getMappedDigits(int number);
 Set<string> getPrefix(string digits,int index);
+
 Set<string> storeWords;
 Map<int,Stack<string> > MappedDigits;
+
 int main() {
     string s="";
   
